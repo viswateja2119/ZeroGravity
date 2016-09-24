@@ -20,7 +20,7 @@ public class HelloWorldInitializer extends AbstractAnnotationConfigDispatcherSer
     protected String[] getServletMappings() {
         return new String[] { "/" };
     }
-     
+     //hey wassa my freinds
     @Override
     protected Filter[] getServletFilters() {
         Filter [] singleton = { new CORSFilter() };
